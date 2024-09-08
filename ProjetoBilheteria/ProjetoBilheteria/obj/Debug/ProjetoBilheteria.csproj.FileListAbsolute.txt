@@ -1,0 +1,10 @@
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\bin\Debug\ProjetoBilheteria.exe.config
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\bin\Debug\ProjetoBilheteria.exe
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\bin\Debug\ProjetoBilheteria.pdb
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.csproj.AssemblyReference.cache
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.Form1.resources
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.Properties.Resources.resources
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.csproj.GenerateResource.cache
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.csproj.CoreCompileInputs.cache
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.exe
+C:\Users\srwu0\Documents\IFSP-EDD2\ProjetoBilheteria\ProjetoBilheteria\obj\Debug\ProjetoBilheteria.pdb
