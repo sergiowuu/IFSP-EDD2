@@ -19,41 +19,42 @@ namespace ProjetoBilheteria
 
         private void InitializeMyComponents()
         {
-            poltrona = new CheckBox[5 * 5];
+            poltrona = new CheckBox[40 * 15];
 
-            for (int col = 0; col < 5; col++)
+            for (int col = 0; col < 40; col++)
             {
-                for (int lin = 0; lin < 5; lin++)
+                for (int lin = 0; lin < 15; lin++)
                 {
-                    int index = col * 5 + lin;
+                    int index = col * 15 + lin;
                     poltrona[index] = new CheckBox();
                     poltrona[index].Parent = this;
                     poltrona[index].Checked = false;
-                    poltrona[index].Top = 25 * (lin + 1);
-                    poltrona[index].Left = 105 * col;
+                    poltrona[index].Top = 20 * (lin + 1);
+                    poltrona[index].Left = 18 * (col + 1);
+                    poltrona[index].Width = 13;
                 }
             }
 
             btnOcupacao = new Button();
             btnOcupacao.Parent = this;
-            btnOcupacao.Left = 178;
-            btnOcupacao.Top = 200;
+            btnOcupacao.Left = 250;
+            btnOcupacao.Top = 340;
             btnOcupacao.Text = "Ver Ocupaçao";
             btnOcupacao.Width = 100;
             btnOcupacao.Click += new EventHandler(ocupar);
 
             btnDesocupar = new Button();
             btnDesocupar.Parent = this;
-            btnDesocupar.Left = 178;
-            btnDesocupar.Top = 225;
+            btnDesocupar.Left = 350;
+            btnDesocupar.Top = 340;
             btnDesocupar.Text = "Desocupar tudo";
             btnDesocupar.Width = 100;
             btnDesocupar.Click += new EventHandler(desocupar);
 
             lblOcupacao = new Label();
             lblOcupacao.Parent = this;
-            lblOcupacao.Left = 190;
-            lblOcupacao.Top = 180;
+            lblOcupacao.Left = 310;
+            lblOcupacao.Top = 370;
             lblOcupacao.Text = "Ocupação: 0%";
 
         }
@@ -73,7 +74,7 @@ namespace ProjetoBilheteria
 
             double percentual = (ocupado / (double)total) * 100;
 
-            lblOcupacao.Text = $"Ocupação: {percentual}%";
+            lblOcupacao.Text = $"Ocupação: {percentual:F2}%";
         }
 
         private void desocupar(object sender, EventArgs e)
