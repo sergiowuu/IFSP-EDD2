@@ -173,11 +173,18 @@ namespace ProjetoCursos
             foreach (var aluno in alunos)
             {
                 resultado.AppendLine($"ID: {aluno.Id}, Nome: {aluno.Nome}");
+                resultado.AppendLine("Disciplinas:");
+                foreach (var disciplina in aluno.disciplinas)
+                {
+                    resultado.AppendLine($"  - ID: {disciplina.Id}, Descrição: {disciplina.Descricao}");
+                }
+                resultado.AppendLine();
             }
 
             MessageBox.Show(resultado.Length > 0 ? resultado.ToString() : "Nenhum aluno encontrado.");
         }
 
-        
+
+
     }
 }

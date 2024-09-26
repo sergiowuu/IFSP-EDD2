@@ -6,6 +6,8 @@ public class Disciplina
     public string Descricao { get; set; }
     public Curso Curso { get; set; }
     private List<Aluno> alunos = new List<Aluno>();
+    
+
 
     public List<Aluno> PesquisarAlunos(string pesquisa)
     {

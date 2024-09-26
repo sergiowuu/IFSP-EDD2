@@ -10,7 +10,9 @@ namespace ProjetoCursos
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        private List<Disciplina> disciplinas = new List<Disciplina>();
+
+        public List<Disciplina> disciplinas = new List<Disciplina>();
+
 
         public bool PodeMatricular(Curso curso)
         {
